@@ -77,3 +77,64 @@ body{
     background-color: rgb(210, 114, 63);
     transition: 0.5s;
 }
+
+/* DARK MODE */
+
+.dark{
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255),rgb(101, 101, 145));
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark .calculator{
+    position: absolute;
+    background-color: rgba(0, 0, 0,);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.btn-toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    border: 2px solid #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .btn{
+    width: 50px;
+    height: 50px;
+    margin: 1.5px;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+}
+
+.dark .btn:hover{
+     background-color:rgb(19, 18, 18);
+    transition: 0.5s;
+}
+
+.dark .btn-operator {
+    width: 50px;
+    height: 50px;
+    margin: 1.5px;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(62, 169, 165);
+    border: none;
+    color: black;
+}
