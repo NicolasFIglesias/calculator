@@ -19,3 +19,11 @@ function calc(){
         document.getElementById('result').innerHTML = eval(outcome)
     }
 }
+
+/* DARK MODE */
+let toggleBtn = document.querySelector('.btn-toggle')
+let body = document.querySelector('body')
+
+toggleBtn.onclick = function(){
+    body.classList.toggle('dark')
+}
